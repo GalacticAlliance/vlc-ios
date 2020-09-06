@@ -16,5 +16,5 @@ steps:
     scheme: ' vlc-ios'
     sdk: 'iphoneos'
     configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    xcWorkspacePath: 'VLC.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
