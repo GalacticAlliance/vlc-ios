@@ -10,6 +10,8 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+- script: pod update
+  displayName: 'Pod Update'
 - task: Xcode@5
   inputs:
     actions: 'build'
