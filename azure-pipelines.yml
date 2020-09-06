@@ -13,7 +13,7 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ' vlc-ios'
+    scheme: 'VLC-iOS'
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: 'VLC.xcworkspace'
